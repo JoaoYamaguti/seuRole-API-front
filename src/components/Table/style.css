@@ -1,0 +1,47 @@
+.table {
+  min-width: 600px;
+
+  margin: 20px;
+  border: groove 2px rgb(192, 192, 192);
+  padding: 20px 32px;
+
+  box-sizing: content-box;
+}
+
+.tableTitle {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.list {
+  list-style: none;
+}
+
+.rowDescriptions {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+}
+
+.rowData {
+  display: flex;
+  flex-flow: row nowrap;
+
+  list-style: none;
+}
+
+tr {
+}
+
+td,
+th {
+  padding: 0 35px;
+  text-align: center;
+}
+
+td {
+  border-top: solid 1px rgb(192 192 192);
+}

@@ -1,0 +1,88 @@
+span {
+  box-sizing: content-box;
+}
+
+.hoursRes {
+  width: 50%;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: .2em;
+}
+.subtitle {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+.inputsHours {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.subtitle input, select {
+  padding: .8em;
+}
+
+.subtitle select {
+  width: 50%;
+}
+
+
+.arrays {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-start;
+  gap: 5%;
+}
+
+.dImages {
+  width: 50%;
+
+  display: flex;
+  flex-flow: column;
+  gap: 1em;
+}
+
+.iImages {
+  padding: 3%;
+}
+
+.ulImages {
+  max-height: 600px;
+  text-align: justify;
+  overflow-x: scroll;
+}
+
+.ulImages > li {
+  list-style: none;
+}
+
+.listCategories {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 2px;
+}
+.listOptions {
+  padding-bottom: 10px;
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: capitalize;
+  gap: 2%;
+}
+.option {
+  width: 130px;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  gap: 5%;
+
+  text-align: center;
+}

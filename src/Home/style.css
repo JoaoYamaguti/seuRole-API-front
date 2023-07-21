@@ -1,0 +1,94 @@
+main {
+  min-width: 700px;
+  max-width: 900px;
+  margin: auto;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+form {
+  width: 100%;
+}
+
+form > fieldset {
+  width: 100%;
+
+  padding: 20px 32px;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: flex-end;
+  gap: 20px;
+}
+
+legend {
+  padding: 0 10px 0;
+
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+form > fieldset > p {
+  width: 100%;
+}
+
+form > fieldset > span {
+  width: 100%;
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+
+  font-size: 1.1rem;
+}
+
+form > fieldset > span label {
+  width: 20%;
+  font-size: 1.2em;
+  text-align: right;
+}
+
+.inputs {
+  width: 70%;
+}
+
+form > fieldset > span > input,
+textarea {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+
+  padding: 1%;
+
+  font-size: large;
+  text-align: left;
+  vertical-align: top;
+  overflow: auto;
+  resize: vertical;
+}
+
+form > fieldset > span:nth-child(4) > input {
+  height: 300px;
+}
+
+button {
+  border-radius: 8px;
+  border: 2px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 0.8em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #adadad;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
