@@ -1,17 +1,25 @@
 .table {
-  min-width: 600px;
-
-  margin: 20px;
+  margin: 20px 0;
   border: groove 2px rgb(192, 192, 192);
   padding: 20px 32px;
 
-  box-sizing: content-box;
+  display: flex;
+  flex-flow: column;
+  align-items: stretch;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.abc{
+  overflow-x: scroll;
+
 }
 
 .tableTitle {
   display: flex;
   flex-flow: row nowrap;
-  justify-content: space-between;
   align-items: center;
   gap: 50px;
 }
@@ -28,18 +36,18 @@
 
 .rowData {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row ;
 
   list-style: none;
 }
 
-tr {
-}
 
 td,
 th {
-  padding: 0 35px;
+  max-width: 300px;
+  padding: 0 20px;
   text-align: center;
+  overflow-wrap: break-word;
 }
 
 td {

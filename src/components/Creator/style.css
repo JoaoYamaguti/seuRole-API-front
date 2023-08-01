@@ -16,12 +16,19 @@ span {
   text-transform: capitalize;
 }
 
+.subtitle > label {
+  text-align: right;
+}
+
 .inputsHours {
-  width: 50%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 20px;
+  gap: 1em;
+}
+
+.inputsHours input {
+  min-width: 65px;
 }
 
 .subtitle input, select {
@@ -63,6 +70,8 @@ span {
 }
 
 .listCategories {
+  width: 50%;
+
   display: flex;
   flex-flow: column nowrap;
   gap: 2px;

@@ -1,16 +1,13 @@
 main {
-  min-width: 700px;
-  max-width: 900px;
+  max-width: 1000px;
   margin: auto;
+  padding: 0 2%;
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-around;
-  align-items: center;
+  align-items: stretch;
 }
 
-form {
-  width: 100%;
-}
 
 form > fieldset {
   width: 100%;
@@ -42,36 +39,28 @@ form > fieldset > span {
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
-
-  font-size: 1.1rem;
+  font-weight: 600;
 }
 
 form > fieldset > span label {
   width: 20%;
-  font-size: 1.2em;
+  font-size: 1.1em;
   text-align: right;
-}
-
-.inputs {
-  width: 70%;
 }
 
 form > fieldset > span > input,
 textarea {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  min-width: 50%;
 
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 
   padding: 1%;
 
-  font-size: large;
+  font-size: 1.1em;
   text-align: left;
   vertical-align: top;
   overflow: auto;
   resize: vertical;
-}
-
-form > fieldset > span:nth-child(4) > input {
-  height: 300px;
 }
 
 button {
