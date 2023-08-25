@@ -31,7 +31,7 @@ export const questions = [
     key: 5,
     category: "action",
     question: "Qual é a sua prioridade:",
-    options: ["Beber", "Comer", "Visitar"],
+    options: ["Beber", "Comer", "Visitar", "Laser"],
     answer: "",
   },
   {
