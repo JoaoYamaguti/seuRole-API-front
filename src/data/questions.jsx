@@ -31,14 +31,14 @@ export const questions = [
     key: 5,
     category: "action",
     question: "Qual é a sua prioridade:",
-    options: ["Beber", "Comer", "Visitar", "Laser"],
+    options: ["Beber", "Comer", "Visitar", "Laser", "Jogar", "Assistir"],
     answer: "",
   },
   {
     key: 6,
     category: "type",
     question: "O que gostaria de fazer?",
-    options: ["Japoneis", "Churrasco", "Mexicano", "Indiferente", "Parque"],
+    options: ["Japoneis", "Churrasco", "Mexicano", "Indiferente", "Parque", "Museu", "Clube", "Teatro", "Cinema", "Shopping",],
     answer: "",
   },
 ];
