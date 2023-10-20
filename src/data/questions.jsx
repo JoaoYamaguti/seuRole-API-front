@@ -38,7 +38,7 @@ export const questions = [
     key: 6,
     category: "type",
     question: "O que gostaria de fazer?",
-    options: ["Japoneis", "Churrasco", "Mexicano", "Indiferente", "Parque", "Museu", "Clube", "Teatro", "Cinema", "Shopping",],
+    options: ["Japoneis", "Churrasco", "Mexicano", "Indiferente", "Parque", "Museu", "Clube", "Teatro", "Cinema", "Shopping", "Pizzaria", "Italiano"],
     answer: "",
   },
 ];
