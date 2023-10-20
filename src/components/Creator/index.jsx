@@ -7,6 +7,7 @@ import { questions } from "../../data/questions.jsx";
 import { daysOfWeek } from "../../data/days.jsx";
 
 import "./style.css";
+import { backup } from "../../data/backup";
 
 export default function Creator({ handleChange }) {
   let asks = questions;
@@ -130,6 +131,10 @@ export default function Creator({ handleChange }) {
     setCategoriesValue({ id: index, option: option.value })
 
   }
+  async function createBackup() {
+    backup.forEach(async (estab) => await API.post("establishment/create", estab))
+    ;
+  }
 
   useEffect(() => {
     timeHours.open !== ""
@@ -156,7 +161,7 @@ export default function Creator({ handleChange }) {
     <form id="cadastro" onSubmit={(event) => event.preventDefault()}>
       <fieldset>
         <legend>Cadastro</legend>
-        <p>Preencha os campos para cadastrar um estabelecimento.</p>
+        <p>Preencha os campos para cadastrar um estabelecimento.</p> <button onClick={() => createBackup()}>createBackup</button>
         <span>
           <label htmlFor="name">Nome:</label>
           <input
